@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "tvnow"
+
+client = Tvnow::Client.new
+program= client.get_program_list
+
+program.each do |item|
+  puts "#{item[:description]} #{item[:title]}"
+end if program
