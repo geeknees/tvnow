@@ -3,7 +3,7 @@ require 'rss'
 
 module Tvnow
   class Client
-    API_URL = 'http://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=10&stationAreaId=23'
+    API_URL = 'https://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=10&stationAreaId=23'
 
     def get_program_list
       program = get_program
