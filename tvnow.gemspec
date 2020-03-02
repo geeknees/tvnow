@@ -6,12 +6,12 @@ require 'tvnow/version'
 Gem::Specification.new do |spec|
   spec.name          = "tvnow"
   spec.version       = Tvnow::VERSION
-  spec.authors       = ["mgka"]
-  spec.email         = ["mgkamgka@gmail.com"]
+  spec.authors       = ["geeknees"]
+  spec.email         = ["mkawasaki@sbihg.co.jp"]
 
   spec.summary       = %q{Show current TV programs}
   spec.description   = %q{Show current TV programs}
-  spec.homepage      = "https://github.com/mgka/tvnow"
+  spec.homepage      = "https://github.com/geeknees/tvnow"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "rspec"
 end
