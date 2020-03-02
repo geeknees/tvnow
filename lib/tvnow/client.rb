@@ -15,7 +15,7 @@ module Tvnow
     private
 
     def get_program
-      RSS::Parser.parse(open(API_URL).read)
+      RSS::Parser.parse(URI.open(API_URL).read)
     end
 
     def restruct_program_list(program)
