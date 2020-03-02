@@ -1,5 +1,7 @@
 # Tvnow
 
+[![Build Status](https://travis-ci.org/geeknees/tvnow.svg?branch=master)](https://travis-ci.org/geeknees/tvnow)
+
 ## Installation
 
 Add this line to your application's Gemfile:
